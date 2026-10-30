@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-image">
+            <img src="WhatsApp Image 2026-10-30 at 17.04.41.jpeg">
+        </div>
+        <div class="header">
+            <h1>RSVP to our Wedding</h1>
+            <p>Thursday November 19, 2026 at 7:00 PM</p>
+         <p>Event Address: InterContinental Cairo Semiramis</p>
+        </div>
+        <form>
+            <div class="question">
+                <label>Will you be attending? / هل ستحضر؟</label>
+                <div class="option">
+                    <input type="radio" name="attendance" value="Yes" required>
+                    <span>Yes,  I'll be there / نعم سأحضر</span>
+                </div>
+                <div class="option">
+                    <input type="radio" name="attendance" value="No">
+                    <span>Sorry, can't make it / للأسف أعتذر</span>
+                </div>
+            </div>
+            <div class="question">
+                <label>First and Last Name / الاسم الأول والأخير</label>
+                <input type="text" placeholder="Your answer" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
